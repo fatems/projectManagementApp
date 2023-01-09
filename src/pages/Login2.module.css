@@ -1,0 +1,50 @@
+.loginCard{
+    display: flex;
+    height: 100vh;
+}
+.loginContent{
+    max-width: 400px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 50px 40px;
+}
+.inp{
+    position: absolute;
+    
+
+}
+.formControl{
+    position: relative;
+    width: 100%;
+    /* margin-top: 10px; */
+    height: 100%;
+}
+.form > *:not(:last-child){
+    /* position: relative;
+    width: 100%;
+    height: 100%; */
+    margin: 10px 0 10px;
+}
+
+.formControlRadioButton{
+    /* display: block; */
+    /* position: absolute;
+    right: 0;
+     */
+     position: relative;
+    left: 10px;
+    /* margin: 10px 0 30px; */
+
+}
+.btn{
+    width: 100%;
+    display: block;
+}
+
+.whiteBtn{
+    box-shadow: 0 0 5px rgb(128 49 110 / 20%);
+
+}
